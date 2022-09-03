@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang ="es">
+
+    <head>
+        <meta charset ="UTF-8">
+        <title>BatataBit</title>
+        <meta name ="description" content ="Clone of BatataBit, html and css">
+        <meta name ="viewport" content ="width=device-width, initial-scale=1.0">
+        <meta name ="robots" content ="index, follow">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@300;500&display=swap" rel="stylesheet">
+        <link rel ="stylesheet" href ="./css/mobile.css">
+        <link rel ="stylesheet" media ="screen and (min-width: 624px)" href ="./css/table.css">
+        <link rel ="stylesheet" media ="screen and  (min-width: 1024px)" href ="./css/desktop.css">
+    </head>
+
+    <body>
+
+        <header>
+            <nav class ="header__navbar">
+                <img class ="navbar__img" src ="./assets/img/logo.svg" alt ="Logo de la pagina">
+                <div class ="navbar__title"> 
+                    <h1 class ="navbar__title__h1">LA proxima revolución en el intercambio de criptomonedas.</h1>
+                    <p class ="navbar__title__content">BatataBit te ayuda a navegar entre los diferentes precios y tendencias.</p>
+                    <button class ="header__button">
+                        <a class ="button__alink" href ="">
+                            <span>Conoce nuestros planes</span>
+                            <span class ="button__arrow"></span>
+                        </a>
+                    </button>
+                </div>
+            </nav>
+        </header>
+
+        <main class ="main__container">
+            <section class ="main__section">
+                <figure class ="section__figure"></figure>
+                <div class ="section__content">
+                    <h2 class ="section__content__title">Visibilizamos todas las tasas de cambio.</h2>
+                    <p class ="section__content__parrafo">Traemos informacion en tiempo real de las casas de cambio y las monedas mas importantes del mundo.</p>
+                </div>
+                <section class ="section__table">
+                    <article class ="table__currency">
+                        <p class ="currency__title">Monedas</p>
+                        <div class ="currency__table">
+                            <table class ="currency__table__table">
+                                <tr>
+                                    <td class ="table__td table__border-top-left">Bitcoin</td>
+                                    <td class ="table__td">$1.96<img class ="arrow--green" src= "./assets/icons/trending-up.svg" alt ="" loading ="lazy"></td>
+                                </tr>
+                                <tr>
+                                    <td class ="table__td">Ethereum</td>
+                                    <td class ="table__td">$0.07<img class ="arrow--red" src ="./assets/icons/trending-down.svg" alt ="" loading = "lazy"></td>
+                                </tr>
+                                <tr>
+                                    <td class ="table__td">Ripple</td>
+                                    <td class ="table__td">$2.17<img class ="arrow--green" src ="./assets/icons/trending-up.svg" alt ="" loading = "lazy"></td>
+                                </tr>
+                                <tr>
+                                    <td class ="table__td">Stellar</td>
+                                    <td class ="table__td">$4.96<img class ="arrow--green" src ="./assets/icons/trending-up.svg" alt ="" loading = "lazy"></td>
+                                </tr>
+                            </table>
+                        </div>
+                        <p class ="currency__date"><span>Actualizado: </span>2 Septiembre 2022</p>                        
+                    </article>
+                </section>
+            </section>
+        </main>
+
+    </body>
+
+</html>
