@@ -146,8 +146,6 @@ a { text-decoration: none; }
 }
 
 .table__currency {
-    width: 70%;
-    height: 36rem;
     max-width: 50rem;
     margin: 0 auto;
     flex: 0 0 100%;
@@ -212,3 +210,25 @@ a { text-decoration: none; }
     font-weight: normal;
     font-size: var(--medium-subtitle);
 }
+
+.currency__date {
+    width: max-content;
+    height: 3rem;
+    margin: 1.5rem auto 0 auto;
+    padding: 0.8rem 1.2rem;
+    font-weight: 400;
+    font-size: var(--small);
+    border-radius: 0.6rem;
+    background-color: var(--orange-soft);
+}
+
+.currency__date--color {
+    background-color: transparent;
+}
+
+.date__update {
+    color: var(--warm-black);
+    font-weight: bold;
+    font-size: var(--medium-subtitle);
+}
+
